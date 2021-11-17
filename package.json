@@ -1,0 +1,104 @@
+{
+  "name": "webrtc-pet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "@types/hark": "^1.2.1",
+    "@types/jest": "^26.0.20",
+    "@types/linkify-it": "^3.0.2",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^12.19.15",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-modal": "^3.12.0",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-slick": "^0.23.4",
+    "@types/react-transition-group": "^4.4.3",
+    "@types/redux-logger": "^3.0.8",
+    "@types/socket.io-client": "^1.4.35",
+    "@types/styled-components": "^5.1.7",
+    "@types/styled-theming": "^2.2.5",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "hark": "^1.2.3",
+    "linkify-it": "^3.0.2",
+    "lodash": "^4.17.20",
+    "luxon": "^2.0.2",
+    "mediasoup-client": "^3.6.27",
+    "path-to-regexp": "^6.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-slick": "^0.28.1",
+    "react-toastify": "^7.0.4",
+    "react-tooltip": "^4.2.21",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.0.5",
+    "redux-connect": "^10.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.4.0",
+    "styled-components": "^5.2.1",
+    "tlds": "^1.222.0",
+    "typescript": "^4.1.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write src",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/luxon": "^1.26.5",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "prettier": "2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,css,md}": [
+      "prettier --write"
+    ]
+  }
+}
